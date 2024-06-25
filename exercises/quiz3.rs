@@ -39,7 +39,7 @@ mod tests {
 
     #[test]
     fn generate_numeric_report_card() {
-        let report_card = ReportCard {
+        let report_card = ReportCard { 
             grade: 2.1,
             student_name: "Tom Wriggle".to_string(),
             student_age: 12,
